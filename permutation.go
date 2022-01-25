@@ -1,7 +1,17 @@
+/*
+Package permutation implements Heap's algorithm for generating permutations of
+lists. It uses Go 1.18's new generics feature to provide a generic interface
+*/
 package permutation
 
+// GenSlice is a generic slice of data
 type GenSlice[T any] []T
 
+/*
+Permutations uses Heap's Algorithm to generate a list of all possible
+permutations of the provided list. Most slices will automatically coerce
+their type into a GenSlice[T] with no casting required
+*/
 func Permutations[T any](arr GenSlice[T]) []GenSlice[T] {
 	var helper func(GenSlice[T], int)
 	var res []GenSlice[T]
