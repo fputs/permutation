@@ -18,7 +18,7 @@ import (
 )
 
 func main() {
-	a := []int{1, 2, 3, 4}
+	a := []int{1, 2, 3}
 	p := perm.Permutations(a)
 	fmt.Println(p)
 }
