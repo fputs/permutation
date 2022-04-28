@@ -1,5 +1,5 @@
 # permutation
-A simple permutation package using generics. Requires go1.18beta1 or higher
+A simple permutation package using generics. Requires go1.18 or higher
 
 ## Install
 ```bash
