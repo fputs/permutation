@@ -3,7 +3,7 @@ A simple permutation package using generics. Requires go1.18 or higher
 
 ## Install
 ```bash
-go get git.fputs.com/fputs/permutation
+go get github.com/fputs/permutation@latest
 ```
 
 ## Usage
@@ -14,7 +14,7 @@ package main
 import (
 	"fmt"
 
-	perm "git.fputs.com/fputs/permutation"
+	perm "github.com/fputs/permutation"
 )
 
 func main() {
